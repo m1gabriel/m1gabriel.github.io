@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frizeria lui Nugget</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans container-mx-auto">
+  
+  <!-- Header -->
+
+ <div id="header-placeholder" class="py-10"></div>
+ 
+  <!-- Hero -->
+  <section class="w-full px-4 py-12">
+    <div class="container max-w-[1400px] mx-auto">
+      <div class="bg-gradient-to-tr from-white via-cyan-100 to-cyan-300 rounded-3xl shadow-xl overflow-hidden">
+        <div class="flex flex-col lg:flex-row items-center justify-between px-8 pt-16 lg:pt-0">
+
+          <!-- Textul apare primul în cod, deci e sus pe mobil -->
+          <div class="text-center lg:text-left max-w-2xl space-y-6">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-cyan-900">Frizeria lui Nugget</h1>
+            <p class="text-xl text-gray-800 leading-relaxed">
+              La salonul de îngrijire pentru prietenii blănoși, Frizeria lui Nugget, blănițele lucioase și lăbuțele fericite sunt specialitatea noastră! 🛁✂️
+Indiferent că e vorba de o tunsoare stilată, un tratament relaxant sau doar de puțină răsfățare, cățelul sau pisica ta va ieși de aici cu zâmbetul pe botic.
+Programările se fac simplu, rapid și cu garanția unei experiențe blănoase impecabile.
+            </p>
+            <a href="#contact" class="inline-block bg-cyan-700 hover:bg-cyan-800 text-white px-8 py-3 text-xl rounded transition duration-300">
+              Programează-te
+            </a>
+          </div>
+
+          <!-- Imaginea e DUPĂ text => apare jos pe mobil -->
+          <div class="lg:ml-8 flex justify-center lg:justify-end mt-8 lg:mt-0">
+            <img src="images/nugget.png" alt="Motanul Nugget" class="w-[220px] md:w-[280px] lg:w-[360px] object-contain">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sectiunea 2 -->
+  <section class="w-full px-4 py-16 bg-white">
+    <div class="container max-w-[1200px] mx-auto flex flex-col lg:flex-row items-center gap-12">
+      
+      <!-- Textul din stânga (sau deasupra pe mobil) -->
+      <div class="lg:w-1/2">
+        <h2 class="text-3xl md:text-4xl font-bold text-cyan-900 mb-4">Frizeria lui Nugget</h2>
+        <p class="text-lg text-gray-700 mb-6">
+          La Frizeria lui Nugget, oferim îngrijire profesională pentru animalele tale de companie – câini, pisici și nu numai. Atmosfera noastră este calmă, iar serviciile sunt de calitate superioară, indiferent de blăniță!
+        </p>
+        <ul class="list-disc pl-5 space-y-2 text-gray-700">
+          <li>Specialiști pasionați și cu experiență în îngrijirea animalelor</li>
+          <li>Produse testate dermatologic, sigure pentru pielea sensibilă</li>
+          <li>Standard ridicat de igienă și curățenie</li>
+          <li>Servicii adaptate fiecărui tip de blăniță și personalitate</li>
+          <li>Un mediu relaxant și prietenos pentru patrupedul tău</li>
+        </ul>
+      </div>
+
+      <!-- Imaginea din dreapta (sau dedesubt pe mobil) -->
+      <div class="lg:w-1/2">
+        <img src="images/frizerie-nugget-1.png" alt="Frizeria lui Nugget" class="w-full h-auto rounded-xl object-contain">
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Sectiunea 3 -->
+  <section class="w-full px-4 py-16 bg-cyan-50">
+  <div class="container max-w-[1200px] mx-auto flex flex-col lg:flex-row gap-12 items-start">
+
+    <!-- Specialistii nostri -->
+    <div class="lg:w-1/2 space-y-8">
+      <h2 class="text-3xl md:text-4xl font-bold text-cyan-900">Specialiștii noștri</h2>
+
+      <!-- Nugget -->
+      <div class="flex items-center gap-4">
+        <img src="images/nugget_tufis.png" alt="Nugget" class="w-20 h-20 rounded-full object-cover border-2 border-cyan-700">
+        <div>
+          <h3 class="text-xl font-semibold text-cyan-800">Nugget</h3>
+          <p class="text-gray-700">Expert în tunsori creative și îmblânzitor de blănițe rebele 🐾</p>
+        </div>
+      </div>
+
+      <!-- Pufina -->
+      <div class="flex items-center gap-4">
+        <img src="images/pufina.png" alt="Pufina" class="w-20 h-20 rounded-full object-cover border-2 border-cyan-700">
+        <div>
+          <h3 class="text-xl font-semibold text-cyan-800">Pufina</h3>
+          <p class="text-gray-700">Specialistă în îngrijirea pisicilor și tratamente spa pentru blănițe fine 🐱</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recenzii -->
+    <div class="lg:w-1/2 w-full mx-auto flex flex-col items-center justify-center text-center bg-white p-8 rounded-2xl shadow-md">
+      <img src="images/google-logo.png" alt="Google logo" class="w-20 h-auto mb-4">
+      <p class="text-2xl font-bold text-cyan-800">Peste 120 de recenzii</p>
+      <p class="text-xl text-gray-700">
+        Scor mediu: <span class="text-yellow-500 font-semibold">5.00</span> pe Google Maps ⭐⭐⭐⭐⭐
+      </p>
+    </div>
+
+
+  </div>
+</section>
+
+  <!-- Secțiunea 4-->
+<section class="w-full px-4 py-16 bg-white">
+  <div class="container max-w-[1200px] mx-auto flex flex-col lg:flex-row items-center gap-12">
+    
+    <!-- Textul - stânga pe ecrane mari, sus pe mobil -->
+    <div class="lg:w-1/2 space-y-6 text-center lg:text-left">
+      <h2 class="text-3xl md:text-4xl font-bold text-cyan-900">Frizeria lui Nugget – by Motanul Nugget</h2>
+      <ul class="list-disc list-inside text-lg text-gray-700 space-y-2">
+        <li>Bună! Sunt <span class="font-semibold text-cyan-800">Nugget</span>, specialist în frizerie pentru animale cu blăniță fină.</li>
+        <li>Am absolvit școli de renume internațional în tunsori feline și canine.</li>
+        <li>Dețin nenumărate calificări și diplome în îngrijirea blănoșilor.</li>
+        <li>Fiecare vizitator e tratat ca un VIP – Very Important Pet 🐾.</li>
+        <li>Promit o experiență relaxantă și o coafură impecabilă!</li>
+      </ul>
+    </div>
+
+    <!-- Imaginea - dreapta pe ecrane mari, jos pe mobil -->
+    <div class="lg:w-1/2 flex justify-center">
+      <img src="images/motanul_nugget.png" alt="Motanul Nugget" class="max-w-[300px] w-full h-auto rounded-3xl shadow-lg">
+    </div>
+
+  </div>
+</section>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>

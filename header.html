@@ -1,0 +1,38 @@
+<header class="fixed top-0 left-0 w-full z-50 bg-white shadow">
+  <div class="container w-full max-w-[1400px] mx-auto px-4 py-4 flex justify-between items-center">
+    <!-- Logo / homepage -->
+    <a href="index.html" class="text-xl font-bold text-cyan-800 py-3">Frizeria lui Nugget 💈</a>
+
+    <!-- Meniu desktop -->
+    <nav class="space-x-4 hidden lg:flex text-gray-700 text-xl">
+      <a href="despre.html" class="hover:text-cyan-700 px-2">Despre noi</a>
+      <a href="servicii_si_preturi.html" class="hover:text-cyan-700 px-2">Servicii și prețuri</a>
+      <a href="contact.html" class="hover:text-cyan-700 px-2">Contact</a>
+    </nav>
+
+    <!-- Buton programează-te (desktop only) -->
+    <a href="#contact" class="hidden lg:flex bg-cyan-700 rounded text-white px-8 py-3 text-xl">Programează-te</a>
+
+    <!-- Buton hamburger (mobil only) -->
+    <button id="menu-button" class="px-2 lg:hidden text-4xl font-bold hover:text-cyan-800">☰</button>
+  </div>
+
+  <!-- Fundal overlay pentru meniu mobil -->
+  <div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 hidden z-40"></div>
+
+  <!-- Meniu mobil -->
+  <div id="mobile-menu"
+       class="fixed top-0 right-0 w-1/2 max-w-[300px] h-full bg-white shadow-lg transform translate-x-full transition-transform duration-300 z-50">
+    <div class="flex justify-between items-center px-4 py-4 border-b">
+      <span class="text-lg font-semibold">Meniu</span>
+      <button id="close-menu" class="text-3xl font-bold text-gray-700">&times;</button>
+    </div>
+    <nav class="flex flex-col px-4 py-4 space-y-4 text-xl text-gray-700">
+      <a href="index.html" class="hover:text-cyan-700">Acasă</a>
+      <a href="despre.html" class="hover:text-cyan-700">Despre noi</a>
+      <a href="servicii_si_preturi.html" class="hover:text-cyan-700">Servicii și prețuri</a>
+      <a href="contact.html" class="hover:text-cyan-700">Contact</a>
+      <a href="contact.html" class="bg-cyan-700 text-white rounded px-4 py-2 mt-4 w-fit">Programează-te</a>
+    </nav>
+  </div>
+</header>
